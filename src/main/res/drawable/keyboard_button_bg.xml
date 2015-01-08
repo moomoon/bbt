@@ -1,0 +1,6 @@
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:drawable="@anim/keyboard_button_radiant" android:state_pressed="true" android:color="@android:color/black"/>
+    <item android:drawable="@android:color/transparent" android:color="@android:color/white"/>
+
+</selector>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android"
+    android:oneshot="true">
+    <item
+        android:drawable="@android:color/transparent"
+        android:duration="0" />
+
+    <item
+        android:drawable="@drawable/keyboard_button_radiant_0"
+        android:duration="@integer/keyboard_button_radiant_duration_0" />
+    <item
+        android:drawable="@drawable/keyboard_button_radiant_1"
+        android:duration="@integer/keyboard_button_radiant_duration_1" />
+    <item
+        android:drawable="@drawable/keyboard_button_radiant_2"
+        android:duration="@integer/keyboard_button_radiant_duration_2" />
+    <item
+        android:drawable="@drawable/keyboard_button_radiant_3"
+        android:duration="@integer/keyboard_button_radiant_duration_3" />
+    <item
+        android:drawable="@drawable/keyboard_button_radiant_4"
+        android:duration="@integer/keyboard_button_radiant_duration_4" />
+    <item
+        android:drawable="@drawable/keyboard_button_radiant_5"
+        android:duration="@integer/keyboard_button_radiant_duration_5" />
+    <item
+        android:drawable="@drawable/keyboard_button_radiant_6"
+        android:duration="@integer/keyboard_button_radiant_duration_6" />
+    <item
+        android:drawable="@drawable/keyboard_button_radiant_7"
+        android:duration="@integer/keyboard_button_radiant_duration_7" />
+    <item
+        android:drawable="@drawable/keyboard_button_radiant_8"
+        android:duration="@integer/keyboard_button_radiant_duration_8" />
+    <item
+        android:drawable="@drawable/keyboard_button_radiant_9"
+        android:duration="@integer/keyboard_button_radiant_duration_9" />
+    <item
+        android:drawable="@drawable/keyboard_button_radiant_10"
+        android:duration="@integer/keyboard_button_radiant_duration_10" />
+    <item
+        android:drawable="@drawable/keyboard_button_radiant_11"
+        android:duration="@integer/keyboard_button_radiant_duration_11" />
+    <item
+        android:drawable="@drawable/keyboard_button_radiant_12"
+        android:duration="@integer/keyboard_button_radiant_duration_12" />
+    <item
+        android:drawable="@drawable/keyboard_button_radiant_13"
+        android:duration="@integer/keyboard_button_radiant_duration_13" />
+    <item
+        android:drawable="@drawable/keyboard_button_radiant_14"
+        android:duration="@integer/keyboard_button_radiant_duration_14" />
+    <item
+        android:drawable="@drawable/keyboard_button_radiant_15"
+        android:duration="@integer/keyboard_button_radiant_duration_15" />
+    <item
+        android:drawable="@drawable/keyboard_button_radiant_16"
+        android:duration="@integer/keyboard_button_radiant_duration_16" />
+    <item
+        android:drawable="@drawable/keyboard_button_radiant_17"
+        android:duration="@integer/keyboard_button_radiant_duration_17" />
+    <item
+        android:drawable="@drawable/keyboard_button_radiant_18"
+        android:duration="@integer/keyboard_button_radiant_duration_18" />
+    <item
+        android:drawable="@android:color/transparent"
+        android:duration="@integer/keyboard_button_radiant_duration_19" />
+
+</animation-list>

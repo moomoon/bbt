@@ -1,0 +1,17 @@
+<root>
+    <skip-line>1</skip-line>
+    <col-names>
+        <item>record_date_time</item>
+        <item>entry_date</item>
+        <item>entry_time</item>
+        <item>time_point</item>
+        <item>value</item>
+        <item>unit_code</item>
+    </col-names>
+    <id-cols>
+        <item>2</item>
+        <item>4</item>
+    </id-cols>
+    <uri>content://ddrr.bbt.entrybase/entrybase</uri>
+    <parser>org.ddrr.bbt.persistent.Parser_P1</parser>
+</root>

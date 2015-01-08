@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="ClockView">
+        <attr name="mark_width_short" format="dimension|fraction|reference" />
+        <attr name="mark_width_long" format="dimension|fraction|reference" />
+        <attr name="hour_hand_length" format="dimension|fraction|reference" />
+        <attr name="minute_hand_length" format="dimension|fraction|reference" />
+        <attr name="mark_color" format="color|reference" />
+        <attr name="hand_color" format="color|reference"/>
+    </declare-styleable>
+</resources>

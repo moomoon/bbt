@@ -1,0 +1,21 @@
+<resources>
+    <dimen name="month_view_default_month_text_size">40dp</dimen>
+    <dimen name="month_view_default_year_text_size">20dp</dimen>
+    <dimen name="month_view_default_year_padding_left">25dp</dimen>
+    <dimen name="month_view_default_square_height">45dp</dimen>
+    <dimen name="month_view_default_square_width">45dp</dimen>
+    <dimen name="month_view_default_square_radius">5dp</dimen>
+    <color name="month_view_default_month_text_color">@android:color/darker_gray</color>
+    <color name="month_view_default_year_text_color">@android:color/darker_gray</color>
+
+    <declare-styleable name="MonthView">
+        <attr name="month_text_size" format="dimension" />
+        <attr name="year_text_size" format="dimension" />
+        <attr name="year_padding_left" format="dimension" />
+        <attr name="month_text_color" format="color" />
+        <attr name="year_text_color" format="color" />
+        <attr name="square_height" format="dimension" />
+        <attr name="square_width" format="dimension" />
+        <attr name="square_radius" format="dimension" />
+    </declare-styleable>
+</resources>

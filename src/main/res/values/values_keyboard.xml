@@ -1,0 +1,5 @@
+<resources>
+
+    <color name="keyboard_highlight">@android:color/white</color>
+
+</resources>

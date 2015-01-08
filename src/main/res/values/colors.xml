@@ -1,0 +1,11 @@
+<resources>
+    <color name="entry_bg_normal_normal">#ff74ff65</color>
+    <color name="entry_bg_normal_pressed">#ff3fff47</color>
+    <color name="entry_bg_high_normal">#ffff6b68</color>
+    <color name="entry_bg_high_pressed">#ffff3f4c</color>
+    <color name="entry_bg_low_normal">#ff87afff</color>
+    <color name="entry_bg_low_pressed">#ff477aff</color>
+    <color name="entry_bg_empty_normal">#ffffba54</color>
+    <color name="entry_bg_empty_pressed">#ffffa61f</color>
+    <color name="new_entry_attr_bg_pressed">#22ffffff</color>
+</resources>

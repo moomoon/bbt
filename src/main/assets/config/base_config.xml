@@ -1,0 +1,5 @@
+<root>
+    <default-values>
+        <item name="basal-body-temp">37.0</item>
+    </default-values>
+</root>

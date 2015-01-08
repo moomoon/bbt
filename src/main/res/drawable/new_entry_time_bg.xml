@@ -1,0 +1,4 @@
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/new_entry_time_bg_pressed" android:color="@android:color/black" android:state_pressed="true" />
+    <item android:drawable="@drawable/new_entry_time_bg_normal" android:color="@android:color/white" />
+</selector>

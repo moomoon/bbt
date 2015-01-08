@@ -1,0 +1,35 @@
+<resources>
+
+    <color name="keyboard_button_radiant_center">#88ffffff</color>
+    <color name="keyboard_button_radiant_end">#00000000</color>
+
+    <integer name="keyboard_button_radiant_radius_0">10</integer>
+    <integer name="keyboard_button_radiant_radius_1">20</integer>
+    <integer name="keyboard_button_radiant_radius_2">30</integer>
+    <integer name="keyboard_button_radiant_radius_3">40</integer>
+    <integer name="keyboard_button_radiant_radius_4">50</integer>
+    <integer name="keyboard_button_radiant_radius_5">60</integer>
+    <integer name="keyboard_button_radiant_radius_6">70</integer>
+    <integer name="keyboard_button_radiant_radius_7">80</integer>
+    <integer name="keyboard_button_radiant_duration_0">30</integer>
+    <integer name="keyboard_button_radiant_duration_1">30</integer>
+    <integer name="keyboard_button_radiant_duration_2">30</integer>
+    <integer name="keyboard_button_radiant_duration_3">30</integer>
+    <integer name="keyboard_button_radiant_duration_4">30</integer>
+    <integer name="keyboard_button_radiant_duration_5">30</integer>
+    <integer name="keyboard_button_radiant_duration_6">30</integer>
+    <integer name="keyboard_button_radiant_duration_7">30</integer>
+    <integer name="keyboard_button_radiant_duration_8">30</integer>
+    <integer name="keyboard_button_radiant_duration_9">30</integer>
+    <integer name="keyboard_button_radiant_duration_10">30</integer>
+    <integer name="keyboard_button_radiant_duration_11">30</integer>
+    <integer name="keyboard_button_radiant_duration_12">30</integer>
+    <integer name="keyboard_button_radiant_duration_13">30</integer>
+    <integer name="keyboard_button_radiant_duration_14">30</integer>
+    <integer name="keyboard_button_radiant_duration_15">30</integer>
+    <integer name="keyboard_button_radiant_duration_16">30</integer>
+    <integer name="keyboard_button_radiant_duration_17">30</integer>
+    <integer name="keyboard_button_radiant_duration_18">30</integer>
+    <integer name="keyboard_button_radiant_duration_19">30</integer>
+
+</resources>

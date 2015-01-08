@@ -1,0 +1,5 @@
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:color="@android:color/white" android:drawable="@drawable/entry_bg_high_pressed" android:state_pressed="true" />
+    <item android:color="@android:color/white" android:drawable="@drawable/entry_bg_high_normal" />
+
+</selector>

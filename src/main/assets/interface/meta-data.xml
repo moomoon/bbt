@@ -1,0 +1,3 @@
+<root>
+    <profile name="TAB" file="/bbt.txt" exporter="sep_tab_basic_ex" importer="sep_tab_basic_im" />
+</root>

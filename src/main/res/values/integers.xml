@@ -1,0 +1,6 @@
+<resources>
+
+    <integer name="blur_level_time">400</integer>
+    <integer name="new_entry_label_switch_time">200</integer>
+    <integer name="keyboard_switch_time">100</integer>
+</resources>

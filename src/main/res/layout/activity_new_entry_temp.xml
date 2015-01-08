@@ -1,0 +1,133 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ddrr="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#22ffffff"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:gravity="bottom|left">
+
+            <FrameLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+                <!--android:background="@drawable/new_entry_date_bg"-->
+                <TextView
+                    android:id="@+id/new_entry_date"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/new_entry_attr_bg"
+                    android:gravity="left|center_vertical"
+                    android:paddingLeft="80dp"
+                    android:shadowColor="@android:color/white"
+                    android:shadowRadius="10"
+                    android:textColor="@android:color/white" />
+
+                <android.widget.OvalViewSwitcher
+                    android:id="@+id/new_entry_label_switcher"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="left|center_vertical"
+                    android:layout_marginLeft="20dp">
+
+                    <TextView
+                        android:id="@+id/new_entry_label_mrng"
+                        style="@style/new_entry_label"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="M" />
+
+                    <TextView
+                        android:id="@+id/new_entry_label_eve"
+                        style="@style/new_entry_label"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="E" />
+                </android.widget.OvalViewSwitcher>
+
+            </FrameLayout>
+
+            <View
+                android:layout_width="1px"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="15dp"
+                android:layout_marginTop="15dp"
+                android:background="#44ffffff" />
+
+            <FrameLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+                <!--android:background="@drawable/new_entry_time_bg"-->
+                <TextView
+                    android:id="@+id/new_entry_time"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/new_entry_attr_bg"
+                    android:gravity="left|center_vertical"
+                    android:paddingLeft="90dp"
+                    android:shadowColor="@android:color/white"
+                    android:shadowRadius="10"
+                    android:textColor="@android:color/white" />
+
+                <org.ddrr.bbt.ClockView
+                    android:id="@+id/new_entry_time_clock"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="left|center_vertical"
+                    android:layout_marginLeft="20dp"
+                    ddrr:mark_width_long="10%"
+                    ddrr:mark_width_short="5%" />
+
+
+            </FrameLayout>
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:background="#44ffffff" />
+    </LinearLayout>
+
+    <android.widget.ListenerEditText
+        android:id="@+id/new_entry_value"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginBottom="20dp"
+        android:background="#22ffffff"
+        android:gravity="right|center_vertical"
+        android:paddingRight="10dp"
+        android:shadowColor="@android:color/white"
+        android:shadowRadius="15"
+        android:textColor="@android:color/white"
+        android:textSize="40dp" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ViewSwitcher
+            android:id="@+id/new_entry_switcher"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="invisible" />
+
+        <include
+            android:id="@+id/new_entry_dummy_keyboard"
+            layout="@layout/keyboard" />
+    </FrameLayout>
+
+
+</LinearLayout>

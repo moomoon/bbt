@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="oval" >
+
+    <gradient
+        android:endColor="@color/keyboard_button_radiant_end"
+        android:gradientRadius="60"
+        android:startColor="@color/keyboard_button_radiant_center"
+        android:type="radial" />
+
+</shape>

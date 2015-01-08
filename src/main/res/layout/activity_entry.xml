@@ -1,0 +1,54 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ddrr="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="ddrr.bbt.EntryActivity">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <org.ddrr.bbt.MonthView
+            android:id="@+id/entry_month_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingLeft="5dp"
+            ddrr:month_text_size="15dp"
+            ddrr:square_height="40dp"
+            ddrr:square_width="40dp"
+            ddrr:year_padding_left="45dp"
+            ddrr:year_text_size="13dp" />
+
+        <com.mmscn.widgets.CHSR
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            ddrr:maxChildWidthOffset="-5dp"
+            ddrr:retainWidth="@dimen/list_bbt_entry_date_width">
+
+            <View
+                android:id="@+id/entry_graph_bg"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginRight="@dimen/entry_graph_margin"
+                android:background="@drawable/entry_graph_bg" />
+
+            <ListView
+                android:id="@android:id/list"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scrollingCache="false"
+                android:divider="@null"
+                android:dividerHeight="0dp" />
+
+            <org.ddrr.bbt.EntryGraphForeground
+                android:id="@+id/entry_graph_fg"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+        </com.mmscn.widgets.CHSR>
+    </FrameLayout>
+
+</LinearLayout>

@@ -1,0 +1,14 @@
+<root>
+    <meta>
+        <col>time_point</col>
+        <col>time_point_label</col>
+    </meta>
+    <entry>
+        <col>0</col>
+        <col>mrng</col>
+    </entry>
+    <entry>
+        <col>1</col>
+        <col>eve</col>
+    </entry>
+</root>

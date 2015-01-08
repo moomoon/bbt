@@ -1,0 +1,12 @@
+<root>
+    <database-name>mainentries.db</database-name>
+    <header>Week No. Date Morning MRecord time Evening Erecord time Period Indicator</header>
+    <sql>SELECT STRFTIME('%W', entry_date) + 1 'WEEK NO.', entry_date AS Date, SUM(CASE WHEN
+        time_point = 0 THEN value ELSE NULL END) Morning, STRFTime('%H:%M', SUM(CASE WHEN time_point
+        = 0 THEN STRFTIME('%s', entry_time) ELSE NULL END), 'unixepoch') 'MRecord time', SUM(CASE
+        WHEN time_point = 1 THEN value ELSE NULL END) Evening, STRFTIME('%H:%M', SUM(CASE WHEN
+        time_point = 1 THEN STRFTIME('%s', entry_time) ELSE NULL END), 'unixepoch') 'Erecord time',
+        null 'Period Indicator' FROM v_bbt_entry GROUP BY Date;
+    </sql>
+    <persister>org.ddrr.bbt.persistent.Persister_P1</persister>
+</root>
